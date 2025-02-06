@@ -37,7 +37,7 @@ def main():
     
     with col1:
         if st.button("Yes 💖"):
-            st.success("I KNEW IT! ❤️ You are the best BubuJaan!")
+            st.success("I KNEW IT! ❤️ You are best BubuJaan!")
     
     with col2:
         if st.button("No 🙁"):
