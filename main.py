@@ -41,7 +41,7 @@ def main():
     
     with col2:
         if st.button("No 🙁"):
-            st.warning("Oh no! Let me convince you...")
+            st.warning("Oh no!")
             convince_page()
 
 def convince_page():
