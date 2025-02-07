@@ -35,9 +35,18 @@ def main():
     
     col1, col2 = st.columns(2)
     
+    
     with col1:
         if st.button("Yes 💖"):
-            st.success("I KNEW IT! ❤️ You are best BubuJaan!")
+            st.success("I KNEW IT! ❤️ You are the best BubuJaan!")
+            
+            st.write("### Here’s what’s coming up:")
+            st.write("- 🥰 **2 Dates**")
+            st.write("- 🍽️ **2 Dinners**")
+            st.write("- 🥗 **2 Lunches**")
+            st.write("- ☕ **10 Teas**")
+            st.write("- 🍵 **5 Coffees**")
+            st.write("\n **Waiting for these days! 💕**")
     
     with col2:
         if st.button("No 🙁"):
