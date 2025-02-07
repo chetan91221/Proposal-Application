@@ -41,12 +41,10 @@ def main():
     
     with col2:
         if st.button("No 🙁"):
-            st.warning("Oh no!")
+            st.warning("Oh no! Let Me Convince You 😍...")
             convince_page()
 
-def convince_page():
-    st.subheader("Wait! Let Me Convince You 😍")
-    
+def convince_page():    
     reasons = [
         "I'm fun to be around! 😁",
         "We have the best conversations! 🗣️",
